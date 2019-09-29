@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b, c, t, o;
+    cout<<"Vvedite dlinnu a, b, c";
+    cin>> a>> b>> c;
+    t=(a/c)*(b/c);
+    o=a*b-t;
+    cout<<t <<" " <<o;
+    return 0;
+}
